@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+            <h1>MEDITATION CENTER</h1>
+           
+          </a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">BENEFITS</a>
+          <a href="#our-service" class="nav-link">PRICING PLANS</a>
+          <a href="#benefits" class="nav-link">CONTACT US</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="titledown.jpg" alt="Image of Meditation" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Meditation Center</h1>
+          <h2>
+           When we meditate we have the opportunity to attune the freshness of the moment.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Register Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            We're about the personal power of balanced living. We're contributing to a better world by uplifting lives through teaching and living High-Tech Meditation® and Holistic Lifestyle™.
+             This is a fulfilling lifestyle grounded in the Now of Being experienced as a discernable presence. We invite you to explore our offerings.   
+          </p>
+          <em>Venue:Ravindra Bharathi Auditorium,Hyderabad.
+              Timings: 5 to 7 AM. 
+          </em>
+          <img src="pic1.jpg" alt="A woman meditating" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">BENEFITS</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="div1.jpg" alt="meditation" />
+            <h4>Reduced Stress</h4>
+            <p>
+            Meditation may decrease stress. It can also improve  symptoms of stress-related conditions, including irritable bowel syndrome (IBS),fibromyalgia.
+
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="div2.jpg"
+              alt="meditate"
+            />
+            <h4>Improved Memory</h4>
+            <p>
+                Better focus through regular meditation increase memory and mental clarity. These benefits can help fight age-related memory loss and dementia.
+
+            </p>
+          </div>
+          <div class="tile">
+            <img src="div3.jpg" alt="meditate" />
+            <h4>Increased Attention</h4>
+            <p>
+                Meditation helps with attention span, allowing you to stay focused longer.
+
+            </p>
+          </div>
+          <div class="tile">
+            <img src="div4.jpg" alt="meditate" />
+            <h4>Enhanced Will Power</h4>
+            <p>
+                Meditation develops the mental discipline needed to avoid unhelpful habits.
+
+            </p>
+          </div>
+          <div class="tile">
+            <img src="div5.jpg" alt="meditate" />
+            <h4>Better Sleep</h4>
+            <p>
+                Meditation can shorten the time it takes to fall asleep and improve sleep quality.
+            </p>
+         
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">PRICING PLANS</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Basic</h5>
+              <p>The Basic plan includes Rs.2000 for 1 month.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Elite</h5>
+              <p>
+                The Elite plan include Rs.3000 for 3 months.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Premium</h5>
+              <p>
+                The Premium plan include Rs.5000 for 6 months.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT US</h3>
+        <div class="sec-content-div flexible">
+          <h6>To join or to know more about us contact :</h6>
+          <form
+            id="form"
+            action="https:contactus"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Shreya Nm</a>
+    </footer>
+  </body>
+</html>
